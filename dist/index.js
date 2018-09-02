@@ -1,0 +1,1 @@
+// MyDomainCom: CommonJS Main
