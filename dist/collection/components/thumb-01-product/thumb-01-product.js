@@ -33,7 +33,6 @@ export class MyComponent {
         e.preventDefault();
     }
     static get is() { return "thumb-01-product"; }
-    static get encapsulation() { return "shadow"; }
     static get properties() { return {
         "buttonText": {
             "type": String,

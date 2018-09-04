@@ -3,7 +3,6 @@ import { Component, Element, Prop, Event, EventEmitter, State, Method } from '@s
 @Component({
 	tag: 'thumb-01-product',
 	styleUrl: 'thumb-01-product.scss',
-	shadow: true
 })
 export class MyComponent {
 	@Element() el!: HTMLStencilElement;

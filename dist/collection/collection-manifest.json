@@ -46,8 +46,7 @@
         {
           "event": "buttonClicked"
         }
-      ],
-      "shadow": true
+      ]
     },
     {
       "tag": "thumb-02-product",

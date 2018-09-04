@@ -1,6 +1,6 @@
 /*!
  * Built with http://stenciljs.com
- * 2018-08-04T00:15:38
+ * 2018-08-04T04:42:09
  */
 (function(win, doc, namespace, fsNamespace, resourcesUrl, appCore, appCoreSsr, appCorePolyfilled, hydratedCssClass, components) {
 
@@ -135,4 +135,4 @@ function createComponentOnReadyPrototype(win, namespace, HTMLElementPrototype) {
 
   init(win, doc, namespace, fsNamespace, resourcesUrl, appCore, appCoreSsr, appCorePolyfilled, hydratedCssClass, components);
 
-  })(window, document, "MyDomainCom","my-domain-com",0,"my-domain-com.core.js","my-domain-com.core.pf.js","hydrated",[["thumb-01-product","thumb-01-product",1,[["buttonText",1,0,"button-text",2],["el",7],["name",1,0,1,2],["scale",5],["thumb",1,0,1,2],["togglePopup",6]],1],["thumb-02-product","thumb-02-product",1,[["buttonText",1,0,"button-text",2],["description",1,0,1,2],["el",7],["target",1,0,1,2],["thumb",1,0,1,2],["url",1,0,1,2]],1]],HTMLElement.prototype);
+  })(window, document, "MyDomainCom","my-domain-com",0,"my-domain-com.core.js","my-domain-com.core.pf.js","hydrated",[["thumb-01-product","thumb-01-product",1,[["buttonText",1,0,"button-text",2],["el",7],["name",1,0,1,2],["scale",5],["thumb",1,0,1,2],["togglePopup",6]]],["thumb-02-product","thumb-02-product",1,[["buttonText",1,0,"button-text",2],["description",1,0,1,2],["el",7],["target",1,0,1,2],["thumb",1,0,1,2],["url",1,0,1,2]],1]],HTMLElement.prototype);
