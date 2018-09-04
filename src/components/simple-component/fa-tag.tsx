@@ -3,7 +3,6 @@ import { Component, Prop } from '@stencil/core';
 @Component({
 	tag: 'fa-tag',
 	styleUrl: 'fa-tag.scss',
-	shadow: true
 })
 export class MyComponent {
 	@Prop() icon: string;

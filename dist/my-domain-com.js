@@ -1,6 +1,6 @@
 /*!
  * Built with http://stenciljs.com
- * 2018-08-04T03:55:42
+ * 2018-08-04T04:19:24
  */
 (function(win, doc, namespace, fsNamespace, resourcesUrl, appCore, appCoreSsr, appCorePolyfilled, hydratedCssClass, components) {
 
@@ -135,4 +135,4 @@ function createComponentOnReadyPrototype(win, namespace, HTMLElementPrototype) {
 
   init(win, doc, namespace, fsNamespace, resourcesUrl, appCore, appCoreSsr, appCorePolyfilled, hydratedCssClass, components);
 
-  })(window, document, "MyDomainCom","my-domain-com",0,"my-domain-com.core.js","my-domain-com.core.pf.js","hydrated",[["fa-tag","fa-tag",1,[["icon",1,0,1,2],["text",1,0,1,2]],1]],HTMLElement.prototype);
+  })(window, document, "MyDomainCom","my-domain-com",0,"my-domain-com.core.js","my-domain-com.core.pf.js","hydrated",[["fa-tag","fa-tag",1,[["icon",1,0,1,2],["text",1,0,1,2]]]],HTMLElement.prototype);

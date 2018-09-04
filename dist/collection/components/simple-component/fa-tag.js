@@ -12,7 +12,6 @@ export class MyComponent {
         ];
     }
     static get is() { return "fa-tag"; }
-    static get encapsulation() { return "shadow"; }
     static get properties() { return {
         "icon": {
             "type": String,

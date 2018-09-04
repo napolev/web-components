@@ -1,27 +1,9 @@
-@font-face {
-	font-family: 'FontAwesome';
-	src:	url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0');
-	src:	url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
-			url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
-			url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),
-			url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),
-			url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-.fa {
-	display: inline-block;
-	font-family: 'FontAwesome';
-	font-size: inherit;
-	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-.fa-search:before {	content: "\f002"; }
-.fa-search-plus:before { content: "\f00e"; }
-.fa-search-minus:before { content: "\f010"; }
-//---
-:host > span {
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
+fa-tag {
+// BEGIN OF COMPONENT STYLE
+
+& > span {
 	font-family: Tahoma;
 	border-radius: 8px;
 	padding: 2px 4px;
@@ -29,7 +11,7 @@
 	background-color: #f9f779;
 	border: 1px solid #fe9d9d;
 }
-.icon {
+& > span > span.icon {
 	display: inline-block;
 	font-size: 18px;
 	margin-left: 4px;
@@ -38,4 +20,7 @@
 		text-decoration: none;
 		color: #1e67c6;
    }
+}
+
+// END OF COMPONENT STYLE
 }
