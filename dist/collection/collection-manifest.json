@@ -1,96 +1,29 @@
 {
   "components": [
     {
-      "tag": "thumb-01-product",
+      "tag": "fa-tag",
       "dependencies": [],
       "componentClass": "MyComponent",
-      "componentPath": "components/thumb-01-product/thumb-01-product.js",
+      "componentPath": "components/simple-component/fa-tag.js",
       "styles": {
         "$": {
           "stylePaths": [
-            "components/thumb-01-product/thumb-01-product.scss"
+            "components/simple-component/fa-tag.scss"
           ]
         }
       },
       "props": [
         {
-          "name": "buttonText",
+          "name": "icon",
           "type": "String",
-          "attr": "button-text"
+          "attr": "icon"
         },
         {
-          "name": "name",
+          "name": "text",
           "type": "String",
-          "attr": "name"
-        },
-        {
-          "name": "thumb",
-          "type": "String",
-          "attr": "thumb"
+          "attr": "text"
         }
       ],
-      "states": [
-        {
-          "name": "scale"
-        }
-      ],
-      "methods": [
-        {
-          "name": "togglePopup"
-        }
-      ],
-      "hostElement": {
-        "name": "el"
-      },
-      "events": [
-        {
-          "event": "buttonClicked"
-        }
-      ],
-      "shadow": true
-    },
-    {
-      "tag": "thumb-02-product",
-      "dependencies": [],
-      "componentClass": "MyComponent",
-      "componentPath": "components/thumb-02-product/thumb-02-product.js",
-      "styles": {
-        "$": {
-          "stylePaths": [
-            "components/thumb-02-product/thumb-02-product.scss"
-          ]
-        }
-      },
-      "props": [
-        {
-          "name": "buttonText",
-          "type": "String",
-          "attr": "button-text"
-        },
-        {
-          "name": "description",
-          "type": "String",
-          "attr": "description"
-        },
-        {
-          "name": "target",
-          "type": "String",
-          "attr": "target"
-        },
-        {
-          "name": "thumb",
-          "type": "String",
-          "attr": "thumb"
-        },
-        {
-          "name": "url",
-          "type": "String",
-          "attr": "url"
-        }
-      ],
-      "hostElement": {
-        "name": "el"
-      },
       "shadow": true
     }
   ],

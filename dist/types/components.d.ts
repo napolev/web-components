@@ -30,78 +30,33 @@ declare global {
 declare global {
 
   namespace StencilComponents {
-    interface Thumb01Product {
-      'buttonText': string;
-      'name': string;
-      'thumb': string;
-      'togglePopup': (e: any) => void;
+    interface FaTag {
+      'icon': string;
+      'text': string;
     }
   }
 
-  interface HTMLThumb01ProductElement extends StencilComponents.Thumb01Product, HTMLStencilElement {}
+  interface HTMLFaTagElement extends StencilComponents.FaTag, HTMLStencilElement {}
 
-  var HTMLThumb01ProductElement: {
-    prototype: HTMLThumb01ProductElement;
-    new (): HTMLThumb01ProductElement;
+  var HTMLFaTagElement: {
+    prototype: HTMLFaTagElement;
+    new (): HTMLFaTagElement;
   };
   interface HTMLElementTagNameMap {
-    'thumb-01-product': HTMLThumb01ProductElement;
+    'fa-tag': HTMLFaTagElement;
   }
   interface ElementTagNameMap {
-    'thumb-01-product': HTMLThumb01ProductElement;
+    'fa-tag': HTMLFaTagElement;
   }
   namespace JSX {
     interface IntrinsicElements {
-      'thumb-01-product': JSXElements.Thumb01ProductAttributes;
+      'fa-tag': JSXElements.FaTagAttributes;
     }
   }
   namespace JSXElements {
-    export interface Thumb01ProductAttributes extends HTMLAttributes {
-      'buttonText'?: string;
-      'name'?: string;
-      'onButtonClicked'?: (event: CustomEvent) => void;
-      'thumb'?: string;
-    }
-  }
-}
-
-
-declare global {
-
-  namespace StencilComponents {
-    interface Thumb02Product {
-      'buttonText': string;
-      'description': string;
-      'target': string;
-      'thumb': string;
-      'url': string;
-    }
-  }
-
-  interface HTMLThumb02ProductElement extends StencilComponents.Thumb02Product, HTMLStencilElement {}
-
-  var HTMLThumb02ProductElement: {
-    prototype: HTMLThumb02ProductElement;
-    new (): HTMLThumb02ProductElement;
-  };
-  interface HTMLElementTagNameMap {
-    'thumb-02-product': HTMLThumb02ProductElement;
-  }
-  interface ElementTagNameMap {
-    'thumb-02-product': HTMLThumb02ProductElement;
-  }
-  namespace JSX {
-    interface IntrinsicElements {
-      'thumb-02-product': JSXElements.Thumb02ProductAttributes;
-    }
-  }
-  namespace JSXElements {
-    export interface Thumb02ProductAttributes extends HTMLAttributes {
-      'buttonText'?: string;
-      'description'?: string;
-      'target'?: string;
-      'thumb'?: string;
-      'url'?: string;
+    export interface FaTagAttributes extends HTMLAttributes {
+      'icon'?: string;
+      'text'?: string;
     }
   }
 }
